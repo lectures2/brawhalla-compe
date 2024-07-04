@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brawhalla Online Championship</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #161616;
+      color: #fff;
+      text-align: center;
+      background-image: url('icon.jfif'); /* Replace with your background image path */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    header {
+      background-color: #ffa500;
+      padding: 1.5rem;
+      color: #1c1c1c;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header img {
+      width: 80px; /* Adjust the size as needed */
+      height: 80px;
+      border-radius: 50%;
+      border: 4px solid #fff; /* Add a border for a sleek look */
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Add a subtle shadow */
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0;
+      text-transform: uppercase; /* Convert the text to uppercase */
+      letter-spacing: 2px; /* Add some letter spacing for style */
+    }
+
+    section {
+      margin: 2rem;
+    }
+
+    .tournament-info {
+      text-align: left;
+      max-width: 80%;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: rgba(28, 28, 28, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .prizes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 2rem;
+    }
+
+    .prize {
+      flex: 1;
+      margin: 1rem;
+      padding: 1.5rem;
+      background-color: #1c1c1c;
+      border-radius: 5px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .prize h3 {
+      font-size: 1.4rem;
+    }
+
+    .register-button {
+      display: inline-block;
+      padding: 1.5rem 3rem;
+      background-color: #ffa500;
+      color: #1c1c1c;
+      text-decoration: none;
+      font-size: 1.4rem;
+      margin-top: 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: block;
+    }
+
+    .register-button:hover {
+      background-color: #e69500;
+    }
+
+    @media (max-width: 600px) {
+      header img {
+        width: 60px;
+        height: 60px;
+      }
+
+      .tournament-info {
+        max-width: 90%;
+      }
+
+      .prizes {
+        flex-direction: column;
+      }
+
+      .prize {
+        flex: none;
+        width: 100%;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icon01.png" alt="Brawhalla Icon"> <!-- Replace with your icon path -->
+    <h1>Brawhalla Online Championship</h1>
+  </header>
+
+  <section class="tournament-info">
+    <h2>Experience the Ultimate Brawhalla Battle!</h2>
+    <p>Join the most thrilling Brawhalla Online Championship where warriors clash for glory across platforms!</p>
+    <p>Event Starts: 20th December</p>
+    <p>Available on: Phone, PC, PS4, Switch</p>
+    <p>Registration Fee: 15 RM</p> <!-- Mentioned the Registration Fee -->
+    <div class="prizes">
+      <div class="prize">
+        <h3>1st Place</h3>
+        <p>Exciting Mystery Prize!</p>
+      </div>
+      <div class="prize">
+        <h3>2nd Place</h3>
+        <p>Special Prizes</p>
+      </div>
+      <div class="prize">
+        <h3>3rd Place</h3>
+        <p>Exclusive Brawhalla gift </p>
+      </div>
+    </div>
+    <a href="#" class="register-button" onclick="openRegistrationForm()">Register Now and Claim Your Victory!</a>
+  </section>
+
+  <!-- Add Brawhalla images or related content as needed -->
+
+  <script>
+    function openRegistrationForm() {
+      window.open('https://docs.google.com/forms/d/e/1FAIpQLSfo9PNiG46wD7POXc6C-aAnMwkZnlqdPecV7po4NCbJ_Evkzg/viewform?usp=sf_link');
+    }
+  </script>
+</body>
+</html>
